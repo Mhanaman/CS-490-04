@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			JTEC Cart Automation
+		</title>
+	</head>
+	<body>
+		<a href="./home.html">Home</a>
+		<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+		<div id="myDropdown" class="dropdown-content">
+		</div>
+		</div>
+	</body>
+</html>
