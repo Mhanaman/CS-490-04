@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JWOODRUFFS</Machine>
+    <WindowsUser>joew9_000</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>26b5db3b-bcea-446a-871a-1567ac26e9e3</PackageIdentityName>
+    <PackageIdentityPublisher>CN=joew9_000</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>6207E43D77B825CEC1C7AA7D162CE649C5B4AE1625AE7DA0805340BBB05B69CB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>26b5db3b-bcea-446a-871a-1567ac26e9e3_1.0.0.0_neutral__h9t1h7ah86myp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>26b5db3b-bcea-446a-871a-1567ac26e9e3_h9t1h7ah86myp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>26b5db3b-bcea-446a-871a-1567ac26e9e3</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=joew9_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-30T21:21:07.261</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2019-02-03T18:18:49.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-11-02T16:18:25.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-02T16:18:25.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-02T16:18:25.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-02T16:18:25.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-02T16:18:25.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-02T16:18:25.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-02T16:18:25.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2018-11-30T21:20:28.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2018-11-30T21:34:06.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-30T21:21:06.641</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
