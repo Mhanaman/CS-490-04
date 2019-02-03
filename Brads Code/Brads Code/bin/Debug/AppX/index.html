@@ -1,4 +1,4 @@
-﻿+<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <title>
@@ -12,9 +12,15 @@
             width: auto
         }
 
-        td, th {
-            border: 1px solid #dddddd;
-            text-align: left;
+        th {
+            border: 1px solid #000000;
+            text-align: center;
+            padding: 8px;
+        }
+
+        td {
+            border: 1px solid #000000;
+            text-align: right;
             padding: 8px;
         }
 
@@ -42,8 +48,8 @@
         <a>.</a>
         <tr>
             <td>
-                <select>
-                    <option value=""></option>
+                <select name="ActivityID">
+                    <option value="            ">            </option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -59,7 +65,7 @@
 
             <a></a>
             <td>
-                <select>
+                <select name="Train">
                     <option value=""></option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -75,7 +81,7 @@
             </td>
             <a></a>
             <td>
-                <select>
+                <select name="CartBay">
                     <option value=""></option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -91,7 +97,7 @@
             </td>
             <a></a>
             <td>
-                <select>
+                <select name="Station">
                     <option value=""></option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -107,15 +113,15 @@
             </td>
             <a></a>
             <td>
-                <select>
+                <select name="Activity">
                     <option value=""></option>
-                    <option value="Unload Station">Unload Station</option>
-                    <option value="Load Station">Load Station</option>
-                </select>
+                    <option value="UnloadStation">Unload Station</option>
+                    <option value="LoadStation">Load Station</option>
+                </selectname="ActivityID">
             </td>
             <a></a>
             <td>
-                <select>
+                <select name="StopLocation">
                     <option value=""></option>
                     <option value="A-1">A-1</option>
                     <option value="A-2">A-2</option>

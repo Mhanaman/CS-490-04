@@ -38,7 +38,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2019-02-03T18:47:32.304</Modified>
+      <Modified>2019-02-03T19:17:54.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\images\LockScreenLogo.scale-200.png">
       <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
@@ -80,7 +80,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2018-11-30T21:34:06.340</Modified>
+      <Modified>2019-02-03T19:12:48.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
