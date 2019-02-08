@@ -48,7 +48,7 @@
     <indexer-config type="PRI" />
     <indexer-config type="RESFILES" qualifierDelimiter="." />
   </index>
-  <index root="bld\Debug" startIndexAt="embed.resfiles">
+  <index root="bld\Debug\embed" startIndexAt="embed.resfiles">
     <default>
       <qualifier name="Language" value="en-US" />
       <qualifier name="Contrast" value="standard" />

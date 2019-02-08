@@ -19,6 +19,6 @@ C:\Program Files (x86)\Windows Kits\10\References\10.0.17134.0\Windows.Applicati
 C:\Program Files (x86)\Windows Kits\10\References\10.0.17134.0\Windows.System.Profile.ProfileSharedModeContract\2.0.0.0\Windows.System.Profile.ProfileSharedModeContract.winmd
 -emitAnyForUnresolvedTypes
 -outFilePath
-c:\users\joew9_000\source\repos\trial 1\trial 1\bld\debug\winrtrefs\winrtrefs-temp.d.ts
+c:\users\jake\documents\github\cs-490-04\trial 1\trial 1\bld\debug\winrtrefs\winrtrefs-temp.d.ts
 -emitDocumentation
 -suppressWarningsForUnresolvedWindowsTypes
