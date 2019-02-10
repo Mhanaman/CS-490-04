@@ -22,12 +22,12 @@ namespace Sample02
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnWrite;
-        private System.Windows.Forms.TextBox tbInt;
-        private System.Windows.Forms.TextBox tbDint;
-        private System.Windows.Forms.TextBox tbByte;
-        private System.Windows.Forms.TextBox tbLReal;
-        private System.Windows.Forms.TextBox tbReal;
-        private System.Windows.Forms.TextBox tbTest;
+        private System.Windows.Forms.ComboBox tbInt;
+        private System.Windows.Forms.ComboBox tbDint;
+        private System.Windows.Forms.ComboBox tbByte;
+        private System.Windows.Forms.ComboBox tbLReal;
+        private System.Windows.Forms.ComboBox tbReal;
+        private System.Windows.Forms.ComboBox tbTest;
 
         private System.ComponentModel.Container components = null;
 
@@ -61,12 +61,12 @@ namespace Sample02
         /// </summary>
         private void InitializeComponent()
         {
-            this.tbInt = new System.Windows.Forms.TextBox();
-            this.tbDint = new System.Windows.Forms.TextBox();
-            this.tbByte = new System.Windows.Forms.TextBox();
-            this.tbLReal = new System.Windows.Forms.TextBox();
-            this.tbReal = new System.Windows.Forms.TextBox();
-            this.tbTest = new System.Windows.Forms.TextBox();
+            this.tbInt = new System.Windows.Forms.ComboBox();
+            this.tbDint = new System.Windows.Forms.ComboBox();
+            this.tbByte = new System.Windows.Forms.ComboBox();
+            this.tbLReal = new System.Windows.Forms.ComboBox();
+            this.tbReal = new System.Windows.Forms.ComboBox();
+            this.tbTest = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -80,43 +80,58 @@ namespace Sample02
             // 
             // tbInt
             // 
+            this.tbInt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tbInt.Items.AddRange(new object[] {
+            "1000",
+            "2000"});
             this.tbInt.Location = new System.Drawing.Point(86, 37);
             this.tbInt.Name = "tbInt";
             this.tbInt.Size = new System.Drawing.Size(120, 22);
             this.tbInt.TabIndex = 0;
-            this.tbInt.Text = "1000";
             // 
             // tbDint
             // 
+            this.tbDint.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tbDint.Items.AddRange(new object[] {
+            "10000",
+            "20000"});
             this.tbDint.Location = new System.Drawing.Point(86, 74);
             this.tbDint.Name = "tbDint";
             this.tbDint.Size = new System.Drawing.Size(120, 22);
             this.tbDint.TabIndex = 1;
-            this.tbDint.Text = "10000";
             // 
             // tbByte
             // 
+            this.tbByte.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tbByte.Items.AddRange(new object[] {
+            "100",
+            "200"});
             this.tbByte.Location = new System.Drawing.Point(86, 111);
             this.tbByte.Name = "tbByte";
             this.tbByte.Size = new System.Drawing.Size(120, 22);
             this.tbByte.TabIndex = 2;
-            this.tbByte.Text = "100";
             // 
             // tbLReal
             // 
+            this.tbLReal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tbLReal.Items.AddRange(new object[] {
+            "3,145",
+            "2,654"});
             this.tbLReal.Location = new System.Drawing.Point(86, 148);
             this.tbLReal.Name = "tbLReal";
             this.tbLReal.Size = new System.Drawing.Size(120, 22);
             this.tbLReal.TabIndex = 3;
-            this.tbLReal.Text = "3,145";
             // 
             // tbReal
             // 
+            this.tbReal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tbReal.Items.AddRange(new object[] {
+            "3,14",
+            "1,59"});
             this.tbReal.Location = new System.Drawing.Point(86, 185);
             this.tbReal.Name = "tbReal";
             this.tbReal.Size = new System.Drawing.Size(120, 22);
             this.tbReal.TabIndex = 4;
-            this.tbReal.Text = "3,14";
             // 
             // tbTest
             // 
