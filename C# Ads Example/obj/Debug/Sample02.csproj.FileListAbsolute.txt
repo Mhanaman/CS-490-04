@@ -1,0 +1,20 @@
+D:\Beckhoff\JTec\TwinCATAds_Sample02\TwinCATAds_Sample02\TwinCAT3\obj\Debug\Sample02.csprojResolveAssemblyReference.cache
+D:\Beckhoff\JTec\TwinCATAds_Sample02\TwinCATAds_Sample02\TwinCAT3\bin\Debug\Sample02.exe
+D:\Beckhoff\JTec\TwinCATAds_Sample02\TwinCATAds_Sample02\TwinCAT3\bin\Debug\Sample02.pdb
+D:\Beckhoff\JTec\TwinCATAds_Sample02\TwinCATAds_Sample02\TwinCAT3\bin\Debug\TwinCAT.Ads.dll
+D:\Beckhoff\JTec\TwinCATAds_Sample02\TwinCATAds_Sample02\TwinCAT3\bin\Debug\TwinCAT.Ads.xml
+D:\Beckhoff\JTec\TwinCATAds_Sample02\TwinCATAds_Sample02\TwinCAT3\obj\Debug\Sample02.exe
+D:\Beckhoff\JTec\TwinCATAds_Sample02\TwinCATAds_Sample02\TwinCAT3\obj\Debug\Sample02.pdb
+D:\Beckhoff\JTec\C# Example\C# Ads Example\obj\Debug\Sample02.exe
+D:\Beckhoff\JTec\C# Example\C# Ads Example\obj\Debug\Sample02.pdb
+C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\bin\Debug\Sample02.exe
+C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\bin\Debug\Sample02.pdb
+C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\bin\Debug\TwinCAT.Ads.dll
+C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\bin\Debug\TwinCAT.Ads.xml
+C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\obj\Debug\Sample02.csprojAssemblyReference.cache
+C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\obj\Debug\Sample02.csproj.CoreCompileInputs.cache
+C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\obj\Debug\Sample02.csproj.CopyComplete
+C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\obj\Debug\Sample02.exe
+C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\obj\Debug\Sample02.pdb
+C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\obj\Debug\Sample02.Form1.resources
+C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\obj\Debug\Sample02.csproj.GenerateResource.cache

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
+  <DUT Name="PLCStruct" Id="{acbbd27b-6490-478a-99cb-7f560e09793f}">
+    <Declaration><![CDATA[TYPE PLCStruct :
+STRUCT
+    intVal	: INT;
+    dintVal	: DINT;
+    sintVal	: SINT;
+    lrealVal	: LREAL;
+    realVal	: REAL;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
