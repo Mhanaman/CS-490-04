@@ -76,54 +76,58 @@ namespace Sample02
             // 
             // tbInt
             // 
+            this.tbInt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tbInt.Items.AddRange(new object[] {
+            "1000",
+            "2000"});
             this.tbInt.Location = new System.Drawing.Point(86, 37);
             this.tbInt.Name = "tbInt";
-            this.tbInt.DropDownStyle = ComboBoxStyle.DropDownList;
-            //this.tbInt.Size = new System.Drawing.Size(120, 22);
+            this.tbInt.Size = new System.Drawing.Size(121, 24);
             this.tbInt.TabIndex = 0;
-            this.tbInt.Items.Add("1000");
-            this.tbInt.Items.Add("2000");
-            //this.tbInt.TextChanged += new System.EventHandler(this.tbInt_TextChanged);
             // 
             // tbDint
             // 
+            this.tbDint.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tbDint.Items.AddRange(new object[] {
+            "10000",
+            "20000"});
             this.tbDint.Location = new System.Drawing.Point(86, 74);
             this.tbDint.Name = "tbDint";
-            this.tbDint.Size = new System.Drawing.Size(120, 22);
+            this.tbDint.Size = new System.Drawing.Size(120, 24);
             this.tbDint.TabIndex = 1;
-            this.tbDint.DropDownStyle = ComboBoxStyle.DropDownList;
-            this.tbDint.Items.Add("10000");
-            this.tbDint.Items.Add("20000");
             // 
             // tbByte
             // 
+            this.tbByte.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tbByte.Items.AddRange(new object[] {
+            "100",
+            "200"});
             this.tbByte.Location = new System.Drawing.Point(86, 111);
             this.tbByte.Name = "tbByte";
-            this.tbByte.Size = new System.Drawing.Size(120, 22);
+            this.tbByte.Size = new System.Drawing.Size(120, 24);
             this.tbByte.TabIndex = 2;
-            this.tbByte.DropDownStyle = ComboBoxStyle.DropDownList;
-            this.tbByte.Items.Add("100");
-            this.tbByte.Items.Add("200");
             // 
             // tbLReal
             // 
+            this.tbLReal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tbLReal.Items.AddRange(new object[] {
+            "3,145",
+            "2,654"});
             this.tbLReal.Location = new System.Drawing.Point(86, 148);
             this.tbLReal.Name = "tbLReal";
-            this.tbLReal.Size = new System.Drawing.Size(120, 22);
+            this.tbLReal.Size = new System.Drawing.Size(120, 24);
             this.tbLReal.TabIndex = 3;
-            this.tbLReal.DropDownStyle = ComboBoxStyle.DropDownList;
-            this.tbLReal.Items.Add("3,145");
-            this.tbLReal.Items.Add("2,654");
             // 
             // tbReal
             // 
+            this.tbReal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tbReal.Items.AddRange(new object[] {
+            "3,14",
+            "1,59"});
             this.tbReal.Location = new System.Drawing.Point(86, 185);
             this.tbReal.Name = "tbReal";
-            this.tbReal.Size = new System.Drawing.Size(120, 22);
+            this.tbReal.Size = new System.Drawing.Size(120, 24);
             this.tbReal.TabIndex = 4;
-            this.tbReal.DropDownStyle = ComboBoxStyle.DropDownList;
-            this.tbReal.Items.Add("3,14");
-            this.tbReal.Items.Add("1,59");
             // 
             // groupBox1
             // 
@@ -196,7 +200,7 @@ namespace Sample02
             // Form1
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
-            this.ClientSize = new System.Drawing.Size(224, 253);
+            this.ClientSize = new System.Drawing.Size(247, 322);
             this.Controls.Add(this.btnWrite);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -204,7 +208,6 @@ namespace Sample02
             this.Closing += new System.ComponentModel.CancelEventHandler(this.Form1_Closing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
 		}
