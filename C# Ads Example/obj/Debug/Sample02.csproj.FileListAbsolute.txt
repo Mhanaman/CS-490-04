@@ -18,14 +18,3 @@ C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\ob
 C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\obj\Debug\Sample02.pdb
 C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\obj\Debug\Sample02.Form1.resources
 C:\Users\Jake\Documents\Jake's Stuff\College\CS 490\C# Example\C# Ads Example\obj\Debug\Sample02.csproj.GenerateResource.cache
-C:\Users\Jake\Documents\GitHub\CS-490-04\C# Ads Example\obj\Debug\Sample02.Form1.resources
-C:\Users\Jake\Documents\GitHub\CS-490-04\C# Ads Example\obj\Debug\Sample02.csproj.GenerateResource.cache
-C:\Users\Jake\Documents\GitHub\CS-490-04\C# Ads Example\obj\Debug\Sample02.exe
-C:\Users\Jake\Documents\GitHub\CS-490-04\C# Ads Example\obj\Debug\Sample02.pdb
-C:\Users\Jake\Documents\GitHub\CS-490-04\C# Ads Example\bin\Debug\Sample02.exe
-C:\Users\Jake\Documents\GitHub\CS-490-04\C# Ads Example\bin\Debug\Sample02.pdb
-C:\Users\Jake\Documents\GitHub\CS-490-04\C# Ads Example\bin\Debug\TwinCAT.Ads.dll
-C:\Users\Jake\Documents\GitHub\CS-490-04\C# Ads Example\bin\Debug\TwinCAT.Ads.xml
-C:\Users\Jake\Documents\GitHub\CS-490-04\C# Ads Example\obj\Debug\Sample02.csprojAssemblyReference.cache
-C:\Users\Jake\Documents\GitHub\CS-490-04\C# Ads Example\obj\Debug\Sample02.csproj.CoreCompileInputs.cache
-C:\Users\Jake\Documents\GitHub\CS-490-04\C# Ads Example\obj\Debug\Sample02.csproj.CopyComplete
