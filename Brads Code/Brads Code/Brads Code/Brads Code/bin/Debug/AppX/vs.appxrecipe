@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JAKESLAPTOP</Machine>
+    <WindowsUser>Nejaru</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>26b5db3b-bcea-446a-871a-1567ac26e9e3</PackageIdentityName>
+    <PackageIdentityPublisher>CN=joew9_000</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>C0A2AB7EBB4CDDDEFC1C11C6F679431E0FFA7714FA3A2B0081666FB69CB3A728</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>26b5db3b-bcea-446a-871a-1567ac26e9e3_1.0.0.0_neutral__h9t1h7ah86myp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>26b5db3b-bcea-446a-871a-1567ac26e9e3_h9t1h7ah86myp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>26b5db3b-bcea-446a-871a-1567ac26e9e3</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=joew9_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-08T18:07:35.653</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2019-02-08T18:11:52.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-02-03T19:14:52.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-03T19:14:52.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-03T19:14:52.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-03T19:14:52.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-03T19:14:52.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-03T19:14:52.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-03T19:14:52.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2019-02-03T19:14:52.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2019-02-08T18:02:08.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-02-08T18:07:35.423</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

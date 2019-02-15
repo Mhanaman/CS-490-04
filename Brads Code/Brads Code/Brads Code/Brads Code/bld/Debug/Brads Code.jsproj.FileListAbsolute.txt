@@ -1,0 +1,63 @@
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bin\Debug\ReverseMap\resources.pri
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bin\Debug\AppxManifest.xml
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bin\Debug\Brads Code.build.appxrecipe
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\Brads Code.jsproj.CoreCompileInputs.cache
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\ResourceHandlingTask.state
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\priconfig.xml
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\priconfig.xml.intermediate
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\unfiltered.layout.resfiles
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\filtered.layout.resfiles
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\filtered.layout.resfiles.intermediate
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\excluded.layout.resfiles
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\excluded.layout.resfiles.intermediate
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\resources.resfiles
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\resources.resfiles.intermediate
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\pri.resfiles
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\pri.resfiles.intermediate
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\qualifiers.txt
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\qualifiers.txt.intermediate
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\joew9_000\source\repos\Brads Code\Brads Code\bld\Debug\ProjectArchitectures.txt
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bin\Debug\ReverseMap\resources.pri
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bin\Debug\AppxManifest.xml
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bin\Debug\Brads Code.build.appxrecipe
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\Brads Code.jsproj.CoreCompileInputs.cache
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\ResourceHandlingTask.state
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\priconfig.xml
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\priconfig.xml.intermediate
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\unfiltered.layout.resfiles
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\filtered.layout.resfiles
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\filtered.layout.resfiles.intermediate
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\excluded.layout.resfiles
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\excluded.layout.resfiles.intermediate
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\resources.resfiles
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\resources.resfiles.intermediate
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\pri.resfiles
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\pri.resfiles.intermediate
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\qualifiers.txt
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\qualifiers.txt.intermediate
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\joew9_000\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\ProjectArchitectures.txt
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bin\Debug\ReverseMap\resources.pri
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bin\Debug\AppxManifest.xml
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bin\Debug\Brads Code.build.appxrecipe
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\Brads Code.jsproj.CoreCompileInputs.cache
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\ResourceHandlingTask.state
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\priconfig.xml
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\priconfig.xml.intermediate
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\unfiltered.layout.resfiles
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\filtered.layout.resfiles
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\excluded.layout.resfiles
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\resources.resfiles
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\resources.resfiles.intermediate
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\pri.resfiles
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\pri.resfiles.intermediate
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\qualifiers.txt
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Jake\Documents\GitHub\CS-490-04\Brads Code\Brads Code\bld\Debug\ProjectArchitectures.txt
