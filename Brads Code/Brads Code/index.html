@@ -34,8 +34,8 @@
 
     <header id="header"></header>
     <h1>JTEC Cart Automation</h1>
-    
-    <table>
+
+    <table id="mainTable">
         <tr>
             <th>Activity ID</th>
             <th>Train</th>
@@ -45,22 +45,17 @@
             <th>Stop Location</th>
         </tr>
 
-        <!--<a></a>-->
-        <tr>
-            <td>
-                <select name="ActivityID">
-                    <option value="            ">            </option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                </select>
+        <a>.</a>
+        <tr id="ourRow">
+            <td id="ActivityID">
+
+                <script>
+
+                    document.getElementById("ActivityID").innerHTML = document.getElementById("mainTable").rows.length - 1;
+                    
+
+                </script>
+
             </td>
 
             <a></a>
@@ -117,7 +112,7 @@
                     <option value=""></option>
                     <option value="UnloadStation">Unload Station</option>
                     <option value="LoadStation">Load Station</option>
-                </selectname="ActivityID">
+                </select name="Activity">
             </td>
             <a></a>
             <td>
@@ -137,5 +132,28 @@
             </td>
         </tr>
     </table>
+
+    <button onclick="addRow()">Add Row</button>
+    <button onclick="deleteRow()">Delete Row</button>
+
+    <script>
+        
+        function addRow() {
+            var row = document.getElementById("ourRow"); 
+            var table = document.getElementById("mainTable");
+            var clone = row.cloneNode(true); 
+            clone.id = "newRow";
+            table.appendChild(clone);
+            index = document.getElementById("mainTable").rows.length - 1;
+            alert(document.getElementById("mainTable").rows[index].cells[0].innerHTML = index)
+        }
+        function deleteRow() {
+            var lastRow = document.getElementById("mainTable").rows.length;
+            lastRow -= 1;
+            if (lastRow > 1) {document.getElementById("mainTable").deleteRow(lastRow);}
+        }
+    </script>
+
+
 </body>
 </html>

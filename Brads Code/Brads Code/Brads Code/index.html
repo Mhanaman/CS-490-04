@@ -35,7 +35,7 @@
     <header id="header"></header>
     <h1>JTEC Cart Automation</h1>
     
-    <table id="mainTable">
+    <table>
         <tr>
             <th>Activity ID</th>
             <th>Train</th>
@@ -45,9 +45,9 @@
             <th>Stop Location</th>
         </tr>
 
-        <a>.</a>
-        <tr id="ourRow">
-            <td id="ActivityID">
+        <!--<a></a>-->
+        <tr>
+            <td>
                 <select name="ActivityID">
                     <option value="            ">            </option>
                     <option value="1">1</option>
@@ -137,26 +137,5 @@
             </td>
         </tr>
     </table>
-
-    <button onclick="addRow()">Add Row</button>
-    <button onclick="deleteRow()">Delete Row</button>
-
-    <script>
-        function addRow() {
-            var row = document.getElementById("ourRow"); 
-            var table = document.getElementById("mainTable");
-            var clone = row.cloneNode(true); 
-            clone.id = "newRow"; 
-            table.appendChild(clone); 
-        }
-        function deleteRow() {
-            var lastRow = document.getElementById("mainTable").rows.length;
-            lastRow -= 1;
-            if (lastRow > 1) {document.getElementById("mainTable").deleteRow(lastRow);}
-            
-        }
-    </script>
-
-
 </body>
 </html>
