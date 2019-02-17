@@ -22,6 +22,7 @@ namespace Sample02
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnWrite;
+        private System.Windows.Forms.Button display;
         private System.Windows.Forms.ComboBox tbInt;
         private System.Windows.Forms.ComboBox tbDint;
         private System.Windows.Forms.ComboBox tbByte;
@@ -75,6 +76,7 @@ namespace Sample02
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnWrite = new System.Windows.Forms.Button();
+            this.display = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,7 +88,7 @@ namespace Sample02
             "2000"});
             this.tbInt.Location = new System.Drawing.Point(86, 37);
             this.tbInt.Name = "tbInt";
-            this.tbInt.Size = new System.Drawing.Size(120, 22);
+            this.tbInt.Size = new System.Drawing.Size(120, 24);
             this.tbInt.TabIndex = 0;
             // 
             // tbDint
@@ -97,7 +99,7 @@ namespace Sample02
             "20000"});
             this.tbDint.Location = new System.Drawing.Point(86, 74);
             this.tbDint.Name = "tbDint";
-            this.tbDint.Size = new System.Drawing.Size(120, 22);
+            this.tbDint.Size = new System.Drawing.Size(120, 24);
             this.tbDint.TabIndex = 1;
             // 
             // tbByte
@@ -108,7 +110,7 @@ namespace Sample02
             "200"});
             this.tbByte.Location = new System.Drawing.Point(86, 111);
             this.tbByte.Name = "tbByte";
-            this.tbByte.Size = new System.Drawing.Size(120, 22);
+            this.tbByte.Size = new System.Drawing.Size(120, 24);
             this.tbByte.TabIndex = 2;
             // 
             // tbLReal
@@ -119,7 +121,7 @@ namespace Sample02
             "2,654"});
             this.tbLReal.Location = new System.Drawing.Point(86, 148);
             this.tbLReal.Name = "tbLReal";
-            this.tbLReal.Size = new System.Drawing.Size(120, 22);
+            this.tbLReal.Size = new System.Drawing.Size(120, 24);
             this.tbLReal.TabIndex = 3;
             // 
             // tbReal
@@ -130,14 +132,14 @@ namespace Sample02
             "1,59"});
             this.tbReal.Location = new System.Drawing.Point(86, 185);
             this.tbReal.Name = "tbReal";
-            this.tbReal.Size = new System.Drawing.Size(120, 22);
+            this.tbReal.Size = new System.Drawing.Size(120, 24);
             this.tbReal.TabIndex = 4;
             // 
             // tbTest
             // 
             this.tbTest.Location = new System.Drawing.Point(86, 222);
             this.tbTest.Name = "tbTest";
-            this.tbTest.Size = new System.Drawing.Size(120, 22);
+            this.tbTest.Size = new System.Drawing.Size(120, 24);
             this.tbTest.TabIndex = 10;
             this.tbTest.Text = "Does this work?";
             // 
@@ -219,18 +221,27 @@ namespace Sample02
             this.btnWrite.Text = "Write";
             this.btnWrite.Click += new System.EventHandler(this.btnWrite_Click);
             // 
+            // display
+            // 
+            this.display.Location = new System.Drawing.Point(19, 350);
+            this.display.Name = "display";
+            this.display.Size = new System.Drawing.Size(231, 28);
+            this.display.TabIndex = 7;
+            this.display.Text = "Display";
+            this.display.Click += new System.EventHandler(this.display_Click);
+            // 
             // Form1
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
-            this.ClientSize = new System.Drawing.Size(306, 338);
+            this.ClientSize = new System.Drawing.Size(416, 469);
             this.Controls.Add(this.btnWrite);
+            this.Controls.Add(this.display);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Sample02";
             this.Closing += new System.ComponentModel.CancelEventHandler(this.Form1_Closing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -243,6 +254,10 @@ namespace Sample02
         static void Main()
         {
             Application.Run(new Form1());
+            
+
+            //System.Console.WriteLine("Contents of Testing.txt = {0}", text);
+
         }
 
         private void Form1_Load(object sender, System.EventArgs e)
@@ -263,6 +278,8 @@ namespace Sample02
         {
             AdsStream dataStream = new AdsStream(32);
             BinaryWriter binWrite = new BinaryWriter(dataStream);
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Jake\Documents\Jake's Stuff\College\CS 490-491\Testing.txt");
+            string testing = lines[0];
 
             dataStream.Position = 0;
             try
@@ -285,6 +302,21 @@ namespace Sample02
             {
                 MessageBox.Show(err.Message);
             }
+        }
+
+        private void display_Click(object sender, System.EventArgs e)
+        {
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Jake\Documents\Jake's Stuff\College\CS 490-491\Testing.txt");
+
+            string text = lines[0];
+            /*System.Console.WriteLine("Contents of Testing.txt = ");
+            foreach (string line in lines)
+            {
+                System.Console.WriteLine("\t" + line);
+            }
+            System.Console.ReadKey();*/
+
+            MessageBox.Show(text);
         }
 
         private void Form1_Closing(object sender, System.ComponentModel.CancelEventArgs e)
