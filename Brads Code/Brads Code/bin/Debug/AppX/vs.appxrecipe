@@ -38,7 +38,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2019-02-17T16:50:58.853</Modified>
+      <Modified>2019-02-17T17:25:58.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joew9_000\source\repos\Brads Code\Brads Code\images\LockScreenLogo.scale-200.png">
       <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
